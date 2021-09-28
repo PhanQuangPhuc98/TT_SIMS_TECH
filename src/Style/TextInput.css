@@ -1,0 +1,18 @@
+.Input {
+    max-width: 24rem;
+    margin: 1rem auto;
+}
+
+#NameProduct {
+    color: #ada9a9;
+}
+
+.Input label {
+    padding-left: 1rem;
+}
+
+.Input span {
+    position: absolute;
+    right: -25px;
+    transform: translateY(-120%);
+}

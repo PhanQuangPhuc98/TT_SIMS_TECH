@@ -1,0 +1,101 @@
+.Footer {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    padding-left: 1em;
+    padding-right: 1em;
+    height: 100%;
+    font-size: 1.0rem;
+    font-family: 'Times New Roman', Times, serif;
+    padding-bottom: 3.0rem;
+}
+
+.SupportCall {
+    width: 25%;
+    height: 100%;
+    margin-bottom: 1em;
+}
+
+.SupportCall div {
+    margin-top: 1.2rem;
+}
+
+.IntroduceVolo {
+    width: 25%;
+    height: 100%;
+    margin-bottom: 1em;
+}
+
+.SupportUser {
+    width: 25%;
+    height: 100%;
+    margin-bottom: 1em;
+}
+
+.LogoLoYo {
+    width: 20%;
+    height: 100%;
+    text-align: justify;
+    margin-bottom: 1em;
+}
+
+.FooterTitle {
+    font-weight: bold;
+}
+
+.Phone {
+    padding-left: 0.2rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+@media only screen and (max-width: 63.9375em) {
+    .SupportCall {
+        width: 33%;
+    }
+    .IntroduceVolo {
+        width: 33%;
+    }
+    .SupportUser {
+        width: 33%;
+    }
+    .LogoLoYo {
+        width: 33%;
+    }
+}
+
+@media only screen and (max-width: 45.1875em) {
+    .SupportCall {
+        width: 50%;
+    }
+    .IntroduceVolo {
+        width: 50%;
+    }
+    .SupportUser {
+        width: 50%;
+    }
+    .LogoLoYo {
+        /* width: 50%; */
+    }
+}
+
+@media only screen and (max-width: 34.5em) {
+    .SupportCall {
+        width: 100%;
+    }
+    .IntroduceVolo {
+        width: 100%;
+    }
+    .SupportUser {
+        width: 100%;
+    }
+    .LogoLoYo {
+        width: 100%;
+        text-align: justify;
+    }
+    .Footer {
+        text-align: center;
+    }
+    .LogoLoYo img {
+        margin-left: 40%;
+    }
+}

@@ -1,0 +1,57 @@
+.ContainerProductScreen {
+    background-color: white;
+    max-width: 1400px;
+    padding-left: 1.0rem;
+}
+
+.ProductScreenChange {
+    display: flex;
+    flex-wrap: wrap;
+    height: 100%;
+    right: -100px;
+    padding-left: 4.0rem;
+}
+
+.ContentProductChange {
+    width: 33%;
+    text-align: center;
+    margin-bottom: 3.0rem;
+}
+
+.ContentProductChange img:hover {
+    transform: translateY(-10%);
+}
+
+.OptionTitle {
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+
+.TitleProductChange {
+    margin-top: 3em;
+}
+
+.FilterProduct {
+    display: none;
+}
+
+@media only screen and (max-width: 63.9375em) {
+    .FilterProduct {
+        display: block;
+        font-size: 1.5em;
+        float: left;
+        padding-left: 1em;
+    }
+}
+
+@media only screen and (max-width: 54.5em) {
+    .ContentProductChange {
+        width: 50%;
+    }
+}
+
+@media only screen and (max-width: 34.5em) {
+    .ContentProductChange {
+        width: 100%;
+    }
+}

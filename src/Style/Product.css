@@ -1,0 +1,274 @@
+/* Css Product */
+
+.ContentStyle {
+    width: 7rem;
+    height: 2rem;
+    background-color: #5d78ff;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 100%;
+}
+
+.CotainerButtonChange {
+    margin-top: 1rem;
+}
+
+.ContainerProduct {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.ContentProduct {
+    width: 22%;
+    text-align: center;
+    margin-bottom: 3.0rem;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+}
+
+.ContentProduct img:hover {
+    transform: translateY(-10%);
+}
+
+.TitleProduct {
+    text-align: center;
+    font-size: 1.5rem;
+    margin: 5.0rem 0rem 5.0rem;
+    font-weight: bold;
+}
+
+.TitleClother {
+    padding-top: 1rem;
+    font-size: 1.2rem;
+    color: #ada9a9;
+    padding-bottom: 1.0rem;
+}
+
+.PriceAfterChange {
+    width: 100%;
+    height: 2em;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.PriceSale {
+    font-size: 1.3rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 5em;
+}
+
+.Price {
+    font-size: 1.3rem;
+    text-decoration: line-through;
+    color: #ada9a9;
+    width: 5em;
+}
+
+
+/* Css DetailProduct */
+
+.DetailProductLeft {
+    width: 60%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.DetailProductRight {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    padding-left: 2%;
+}
+
+.ImageDetailProduct {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.ImageDetailProductLeft {
+    float: left;
+    width: 20%;
+    padding-right: 8%;
+}
+
+.ImageDetailProductRight {
+    width: 70%;
+}
+
+.ImageDetailProductLeft img {
+    width: 100%;
+    height: 40%
+}
+
+.ImageDetailProductRight img {
+    width: 100%;
+    height: 100%
+}
+
+.DetailProduct {
+    display: flex;
+    height: 100%;
+}
+
+.OptinProductDetail {
+    display: flex;
+}
+
+.ButtonDetailProduct {
+    width: 9rem;
+    height: 3rem;
+    background-color: #5d78ff;
+    border-radius: 2px;
+    border: 1px solid #ccc;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 1.0rem;
+    font-weight: bold;
+}
+
+.StyleButtonDetail {
+    padding-top: 2rem;
+    margin-right: 1.0rem;
+}
+
+.InforProduct {
+    font-Weight: bold;
+    font-Size: 1.2rem;
+    padding-bottom: 1em;
+    padding-top: 1rem;
+}
+
+.InforProductTitle {
+    font-weight: bold;
+    font-size: 2.2em;
+    padding-bottom: 1em;
+}
+
+.TotalCount {
+    width: 8rem;
+    height: 1.5rem;
+    border: 1px solid #000000;
+    text-align: center;
+}
+
+.ContainerCount {
+    display: flex;
+    width: 10rem;
+    height: 1.5rem;
+    font-size: 1.2rem;
+}
+
+.ContainerCount .fas {
+    width: 2rem;
+    height: 1.5rem;
+    text-align: center;
+    color: #0B0B0B;
+    border: 1px solid #000000;
+}
+
+.InforPrice {
+    color: #5d78ff;
+    font-weight: bold;
+    font-size: 1.5em;
+    padding-bottom: 1.5em;
+    height: 2%;
+}
+
+.Product_Description {
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+}
+
+.Product_Description label {
+    width: 95%;
+    height: 30%;
+    margin-bottom: 3em
+}
+
+.TitleDetailProduct {
+    font-weight: bold;
+    font-size: 1.5em;
+    padding-top: 2rem;
+}
+
+.ButtonResponsive {
+    display: none;
+    margin-left: 45%;
+}
+
+.Collapse {
+    width: 100%;
+    text-align: center;
+}
+
+
+/* OptionBuy */
+
+.OptionPruductBuy {
+    display: flex;
+    position: fixed;
+    overflow: auto;
+    flex-direction: column;
+    width: 70%;
+    height: 50%;
+    border-radius: 2em;
+    border: 1px solid #ccc;
+    background-color: white;
+    padding: 1.5em;
+    transform: translateX(-200%);
+    transition: transform linear 0.5s, opacity linear 0.9s;
+    opacity: 0;
+}
+
+.CloseOptionBuy {
+    font-size: 2em;
+    display: block;
+    width: 100%;
+}
+
+.CloseOptionBuy span {
+    float: right
+}
+
+@media only screen and (max-width: 63.9375em) {
+    .ContentProduct {
+        width: 31%;
+    }
+}
+
+@media only screen and (max-width: 54.25em) {
+    .ImageDetailProductLeft {
+        width: 15%;
+    }
+    .ImageDetailProductRight {
+        width: 70%;
+    }
+    .DetailProductRight {
+        display: none
+    }
+    .DetailProductLeft {
+        width: 100%;
+    }
+    .ButtonResponsive {
+        display: block;
+    }
+}
+
+@media only screen and (max-width: 45.1875em) {
+    .ContentProduct {
+        width: 45%;
+    }
+}
+
+@media only screen and (max-width: 34.5em) {
+    .ContentProduct {
+        width: 100%;
+    }
+}

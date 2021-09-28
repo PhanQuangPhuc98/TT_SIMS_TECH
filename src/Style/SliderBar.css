@@ -1,0 +1,207 @@
+        .ContainerSlider {
+            width: 90%;
+            height: 35em;
+            padding-left: 1em;
+            opacity: 0;
+            transition: transform linear 0.5s, opacity linear 0.5s;
+        }
+        
+        .ContentSlider {
+            display: flex;
+        }
+        
+        .Infor {
+            width: 55%;
+            height: 100%;
+            padding-top: 3rem;
+            font-size: 1.3rem;
+            color: #ada9a9;
+        }
+        
+        .Advertisement {
+            width: 45%;
+            position: relative;
+        }
+        
+        .SliderShowLeft {
+            display: none;
+            float: left;
+            font-size: 2em;
+            padding-top: 10rem;
+            height: 1em;
+        }
+        
+        .SliderShowRight {
+            display: none;
+            float: right;
+            font-size: 2em;
+            padding-top: 10rem;
+            height: 1em;
+        }
+        
+        .Advertisement img {
+            top: -120px;
+            left: 50%;
+            width: 30em;
+            height: 47em;
+            transform: translateX(-50%);
+            position: absolute;
+        }
+        
+        .Title {
+            font-size: 3.2rem;
+            color: #5d78ff;
+            margin-bottom: 4rem;
+        }
+        
+        .ColorBlue {
+            width: 10rem;
+            height: 2.5rem;
+            background-color: #5d78ff;
+            border-radius: 4px;
+            border: 1px solid #ccc;
+            font-family: Arial, Helvetica, sans-serif;
+            color: white;
+            font-size: 0.8em;
+        }
+        
+        .ColorPink {
+            width: 10rem;
+            height: 2.5rem;
+            background-color: #FAC4BD;
+            border-radius: 4px;
+            border: 1px solid #ccc;
+            font-family: Arial, Helvetica, sans-serif;
+            color: white;
+            font-size: 0.8em;
+        }
+        
+        .ColorOrange {
+            width: 10rem;
+            height: 2.5rem;
+            background-color: #F9B66B;
+            border-radius: 4px;
+            border: 1px solid #ccc;
+            font-family: Arial, Helvetica, sans-serif;
+            color: white;
+            font-size: 0.8em;
+        }
+        
+        .TitleBlue {
+            font-size: 3.2rem;
+            color: #5d78ff;
+            margin-bottom: 4rem;
+        }
+        
+        .TitlePink {
+            font-size: 3.2rem;
+            color: #FAC4BD;
+            margin-bottom: 4rem;
+        }
+        
+        .TitleOrange {
+            font-size: 3.2rem;
+            color: #F9B66B;
+            margin-bottom: 4rem;
+        }
+        
+        .StyleButtonSlider {
+            padding-top: 3rem;
+        }
+        
+        .DescriptionSlider {
+            text-align: justify;
+        }
+        
+        .ClickSlider {
+            text-align: center;
+            display: block;
+            font-size: 1.4rem;
+            width: 90%;
+            padding-left: 1em;
+            height: 2rem
+        }
+        
+        .ClickSlider label {
+            padding: 0rem 1rem 0rem;
+        }
+        
+        .ClickSlider .fas {
+            display: inline;
+            cursor: pointer;
+        }
+        
+        .CountSlider {
+            font-size: 1.3rem;
+            background-color: aqua;
+            transform: translateY(-120%)
+        }
+        
+        .SliderCenter {
+            height: 47em;
+            width: 80%;
+        }
+        
+        @media only screen and (max-width:75.3125em) {
+            .Advertisement img {
+                width: 24em
+            }
+        }
+        
+        @media only screen and (max-width: 63.9375em) {
+            .ContainerSlider {
+                height: 80em;
+                display: flex;
+                width: 90%;
+                padding-left: 1em;
+            }
+            .ContentSlider {
+                display: block
+            }
+            .Infor {
+                width: 100%;
+                height: 25%;
+            }
+            .Advertisement {
+                width: 100%;
+                height: 30%;
+                padding-top: 10rem;
+            }
+            .Advertisement img {
+                top: 0px;
+                height: 45em;
+                width: 30em
+            }
+            .SliderShowLeft {
+                display: block;
+                cursor: pointer;
+            }
+            .SliderShowRight {
+                display: block;
+                cursor: pointer;
+            }
+            .ClickSlider .fas {
+                display: none;
+            }
+        }
+        
+        @media only screen and (max-width: 31.25em) {
+            .Infor {
+                height: 35%;
+            }
+        }
+        
+        @media only screen and (max-width: 37.5em) {
+            .Advertisement img {
+                width: 20em
+            }
+        }
+        
+        @media only screen and (max-width: 20em) {
+            .Infor {
+                height: 45%;
+            }
+            .Advertisement img {
+                width: 15em
+            }
+        }
